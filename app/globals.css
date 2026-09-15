@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html { scroll-behavior: smooth; }
+body { @apply bg-mist font-sans text-slate-700 antialiased; }
+::selection { @apply bg-blue-200 text-ink; }
+.container-page { @apply mx-auto w-full max-w-7xl px-5 sm:px-8; }
+.section { @apply py-20 sm:py-28; }
+.eyebrow { @apply mb-4 text-sm font-bold uppercase tracking-[0.16em] text-brand; }
+.heading { @apply font-display font-semibold tracking-tight text-ink; }
+.grid-dot { background-image: radial-gradient(#bfdbfe 1px, transparent 1px); background-size: 18px 18px; }
+.prose-copy { @apply text-base leading-8 text-slate-600; }
+.bg-ink .heading { @apply text-white; }

@@ -1,0 +1,3 @@
+"use client";
+import { ChevronDown } from "lucide-react"; import { useState } from "react"; import { faqs } from "@/lib/content";
+export function FAQ() { const [active, setActive] = useState<number | null>(0); return <div className="divide-y divide-slate-200 rounded-2xl border border-slate-200 bg-white">{faqs.map((faq, i) => <div key={faq.q}><button onClick={() => setActive(active === i ? null : i)} className="flex w-full items-center justify-between gap-5 p-5 text-left font-display font-semibold text-ink" aria-expanded={active === i}>{faq.q}<ChevronDown className={active === i ? "shrink-0 rotate-180 text-brand" : "shrink-0 text-slate-400"}/></button>{active === i && <p className="px-5 pb-5 leading-7 text-slate-600">{faq.a}</p>}</div>)}</div>; }
