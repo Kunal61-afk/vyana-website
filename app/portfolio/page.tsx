@@ -8,10 +8,10 @@ const projects = [
     "from-blue-500 to-indigo-800"
   ],
   [
-    "Local SEO Growth",
-    "Digital Marketing",
-    "Helping businesses improve local visibility, attract nearby customers, and increase organic traffic.",
-    "from-teal-400 to-emerald-800"
+    "TEST TITLE",
+  "TEST TYPE",
+  "TEST DESCRIPTION",
+  "from-red-500 to-red-800"
   ],
   [
     "Google Business Optimisation",
