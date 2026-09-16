@@ -6,7 +6,22 @@ export const services = [
   { title: "AI Solutions", description: "Practical automations that save time, qualify demand, and keep customer conversations moving.", icon: Bot, features: ["AI chatbots", "Workflow automation", "Lead qualification systems"] }
 ];
 export const values = [{ title: "Innovation", icon: Lightbulb, text: "We stay curious, practical, and ahead of what moves business forward." }, { title: "Transparency", icon: ShieldCheck, text: "Clear thinking, honest advice, and no mysterious black boxes." }, { title: "Excellence", icon: Sparkles, text: "Craft and care in the details that shape how your brand is experienced." }, { title: "Growth", icon: Rocket, text: "We measure our work by the momentum it creates for your business." }];
-export const reasons = [{ title: "Results-Driven Approach",text: "We focus on measurable growth, leads, and conversions rather than vanity metrics." }, { title: "Modern Digital Solutions",text: "Websites, marketing, and AI automation designed for today's competitive market." }, { title: "Dedicated Support",text: "Clear communication, quick responses, and ongoing guidance throughout every project." }, { title: "Affordable Pricing",text: "Professional solutions tailored to your budget without compromising quality." }];
+export const reasons = [{
+  title: "Results Driven",
+  text: "Every project is focused on generating measurable business growth."
+},
+{
+  title: "Latest Technology",
+  text: "Modern websites and AI tools built for speed and performance."
+},
+{
+  title: "Dedicated Support",
+  text: "Personal guidance and assistance throughout your project."
+},
+{
+  title: "Business First",
+  text: "Solutions designed around your goals, budget, and long-term success."
+}];
 export const process = [
   "Consultation",
   "Planning",
