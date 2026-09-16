@@ -7,7 +7,13 @@ export const services = [
 ];
 export const values = [{ title: "Innovation", icon: Lightbulb, text: "We stay curious, practical, and ahead of what moves business forward." }, { title: "Transparency", icon: ShieldCheck, text: "Clear thinking, honest advice, and no mysterious black boxes." }, { title: "Excellence", icon: Sparkles, text: "Craft and care in the details that shape how your brand is experienced." }, { title: "Growth", icon: Rocket, text: "We measure our work by the momentum it creates for your business." }];
 export const reasons = [{ title: "Growth Focused", icon: Target, text: "Every decision is rooted in a clear business outcome." }, { title: "Modern Technology", icon: Sparkles, text: "Future-ready tools without needless complexity." }, { title: "Personalized Support", icon: HeartHandshake, text: "A collaborative partner who understands your priorities." }, { title: "Affordable Excellence", icon: Users, text: "Premium work, scoped smartly for growing teams." }];
-export const process = ["Discover", "Strategy", "Build", "Launch", "Grow"];
+export const process = [
+  "Consultation",
+  "Planning",
+  "Design & Development",
+  "Testing & Launch",
+  "Support & Growth"
+];
 export const faqs = [
   { q: "How long does a typical project take?", a: "Most focused websites launch in 4–8 weeks. The exact timeline depends on scope, content, and integrations." },
   { q: "Can you work with our existing brand?", a: "Absolutely. We can build on what you have or help refine a brand presence that feels more distinct and confident." },
