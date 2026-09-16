@@ -36,7 +36,36 @@ export const process = [
   "Support & Growth"
 ];
 export const faqs = [
-  { q: "How long does a typical project take?", a: "Most focused websites launch in 4–8 weeks. The exact timeline depends on scope, content, and integrations." },
-  { q: "Can you work with our existing brand?", a: "Absolutely. We can build on what you have or help refine a brand presence that feels more distinct and confident." },
-  { q: "Do you offer support after launch?", a: "Yes. We offer flexible ongoing support, marketing, and optimisation plans to keep your digital presence moving forward." }
+  {
+    q: "How long does a typical project take?",
+    a: "Most websites launch within 2–6 weeks depending on scope, content requirements, and functionality."
+  },
+  {
+    q: "Can you work with our existing brand?",
+    a: "Yes. We can work within your current brand guidelines or help refine your visual identity if needed."
+  },
+  {
+    q: "Do you offer support after launch?",
+    a: "Absolutely. We provide ongoing support, updates, maintenance, and optimisation after launch."
+  },
+  {
+    q: "How much does a website cost?",
+    a: "Every project is different. Pricing depends on complexity, features, and business goals. We provide a custom quote after a consultation."
+  },
+  {
+    q: "Do you provide SEO services?",
+    a: "Yes. We offer local SEO, on-page optimisation, content strategy, and performance improvements to help increase visibility."
+  },
+  {
+    q: "Can AI automation work for my business?",
+    a: "AI automation can help streamline repetitive tasks, improve customer response times, qualify leads, and increase efficiency."
+  },
+  {
+    q: "Will my website be mobile friendly?",
+    a: "Yes. Every website we build is fully responsive and designed to perform well on mobile, tablet, and desktop devices."
+  },
+  {
+    q: "Can you redesign an existing website?",
+    a: "Yes. We can modernise your current website, improve performance, enhance user experience, and increase conversions."
+  }
 ];
