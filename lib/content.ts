@@ -2,13 +2,9 @@ import { Bot, ChartNoAxesCombined, Code2, HeartHandshake, Lightbulb, Rocket, Sea
 export const navigation = [{ name: "Home", href: "/" }, { name: "Services", href: "/services" }, { name: "Portfolio", href: "/portfolio" }, { name: "About", href: "/about" }, { name: "Blog", href: "/blog" }, { name: "Contact", href: "/contact" }];
 export const services = [
   { title: "Website Development", description: "Fast, strategic websites that make a strong first impression and turn attention into action.", icon: Code2, features: [
-  "Custom Business Website",
+  "TEST FEATURE 12345",
   "Mobile Responsive Design",
-  "SEO Friendly Structure",
-  "Fast Loading Performance",
-  "Contact Forms & Lead Capture",
-  "Google Analytics Setup"
-] },
+  "SEO Friendly Structure",] },
   { title: "Digital Marketing", description: "A measured growth plan that helps the right people discover, trust, and choose your business.", icon: ChartNoAxesCombined, features: [
   "Local SEO",
   "Google Business Profile Optimisation",
