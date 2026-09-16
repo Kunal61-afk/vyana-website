@@ -8,8 +8,8 @@ const projects = [
     "from-blue-500 to-indigo-800"
   ],
   [
-  "Local SEO Growth",
-  "Digital Marketing",
+  "XXXXXXXXXXXX",
+  "YYYYYYYYYYYY",
   "Helping businesses improve local visibility, attract nearby customers, and increase organic traffic.",
   "from-teal-400 to-emerald-800"
   ],
