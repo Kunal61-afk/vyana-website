@@ -1,5 +1,5 @@
 import { Bot, ChartNoAxesCombined, Code2, HeartHandshake, Lightbulb, Rocket, Search, ShieldCheck, Sparkles, Target, Users } from "lucide-react";
-export const navigation = [{ name: "Home", href: "/" }, { name: "Services", href: "/services" }, { name: "Portfolio", href: "/portfolio" }, { name: "About", href: "/about" }, { name: "Blog", href: "/blog" }, { name: "Contact", href: "/contact" }];
+export const navigation = [{ name: "Home", href: "/" }, { name: "Services", href: "/services" }, { name: "Portfolio", href: "/portfolio" }, { name: "About", href: "/about" }, { name: "Contact", href: "/contact" }];
 export const services = [
   { title: "Website Development", description: "Fast, strategic websites that make a strong first impression and turn attention into action.", icon: Code2, features: [
   "Custom Business Website",
