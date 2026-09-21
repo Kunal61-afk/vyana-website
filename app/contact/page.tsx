@@ -2,25 +2,25 @@ import type { Metadata } from "next"; import { FAQ } from "@/components/faq"; im
 export const metadata: Metadata = { title: "Contact", description: "Book a free consultation with Vyana Digital to discuss your website, marketing or AI automation goals." };
 export default function Contact() { return <> <div className="pb-8"> <PageHero label="Contact Vyana Digital" title="Ready to grow your business online?" copy="Tell us about your goals and challenges. We'll recommend the right website, marketing, or automation solution for your business."/></div><section className="-mt-8 pb-12">
   <div className="container-page">
-    <div className="grid grid-cols-2 gap-6 rounded-3xl bg-white p-8 shadow-xl md:grid-cols-4">
+    <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-8 rounded-3xl border border-slate-200 bg-white p-6 sm:p-8 shadow-sm">
 
       <div>
-        <h3 className="text-3xl font-bold">Professional</h3>
+        <h3 className="text-2xl sm:text-3xl font-bold break-words">Professional</h3>
         <p className="text-slate-600">Website Solutions</p>
       </div>
 
       <div>
-        <h3 className="text-3xl font-bold">98%</h3>
+        <h3 className="text-2xl sm:text-3xl font-bold break-words">98%</h3>
         <p className="text-slate-600">Client Satisfaction</p>
       </div>
 
       <div>
-        <h3 className="text-3xl font-bold">24/7</h3>
+        <h3 className="text-2xl sm:text-3xl font-bold break-words">24/7</h3>
         <p className="text-slate-600">Support</p>
       </div>
 
       <div>
-        <h3 className="text-3xl font-bold">India</h3>
+        <h3 className="text-2xl sm:text-3xl font-bold break-words">India</h3>
         <p className="text-slate-600">Working Globally</p>
       </div>
 
