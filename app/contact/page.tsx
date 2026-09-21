@@ -65,12 +65,13 @@ export default function Contact() { return <> <div className="pb-8"> <PageHero l
 <li>
   <strong>Location:</strong><br />
   India · Working Globally
-</li></ul></aside> <div className="mt-8">
+</li></ul></aside> 
+<div className="mt-8 flex justify-center">
   <a
-    href="https://wa.me/918630471168?text=Hi%20Vyana%20Digital%2C%20I%20would%20like%20a%20free%20consultation."
+    href="https://wa.me/918630471168?text=Hi%20Vyana%20Digital%2C%20I%20would%20like%20a%20free%20consultation"
     target="_blank"
     rel="noopener noreferrer"
-    className="inline-flex items-center justify-center rounded-xl bg-green-500 px-5 py-3 font-semibold text-white transition hover:bg-green-600"
+    className="w-full sm:w-auto text-center rounded-xl bg-green-500 px-5 py-3 font-semibold text-white transition hover:bg-green-600"
   >
     Get Free Consultation on WhatsApp
   </a>
