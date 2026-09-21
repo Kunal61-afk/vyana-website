@@ -26,7 +26,17 @@ export default function Contact() { return <> <div className="pb-8"> <PageHero l
 
     </div>
   </div>
-</section> <section className="pt-0 pb-20 bg-white"><div className="container-page grid gap-12 lg:grid-cols-[1.15fr_.85fr]"><ContactForm/><aside className="rounded-3xl bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 p-10 shadow-2xl border border-blue-500/20 sticky top-24"><p className="eyebrow text-teal">Contact information</p><h2 className="font-display text-3xl font-bold text-white leading-tight">Let's discuss your next digital project.</h2><p className="mt-4 leading-7 text-slate-300">Whether you need a website, SEO, branding, digital marketing, or AI automation, our team is ready to help you grow faster and smarter.</p> <div className="mt-6 rounded-xl bg-white/5 p-4 border border-white/10">
+</section> <section className="pt-0 pb-20 bg-white"><div className="container-page grid gap-12 lg:grid-cols-[1.15fr_.85fr]"> <div><ContactForm/><div className="mt-8 flex justify-center">
+      <a
+        href="https://wa.me/918630471168?text=Hi%20Vyana%20Digital%2C%20I%20would%20like%20a%20free%20consultation"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-full sm:w-auto text-center rounded-xl bg-green-500 px-5 py-3 font-semibold text-white transition hover:bg-green-600"
+      >
+        Get Free Consultation on WhatsApp
+      </a>
+    </div>
+  </div> <aside className="rounded-3xl bg-gradient-to-br from-slate-950 via-slate-900 to-blue-950 p-10 shadow-2xl border border-blue-500/20 sticky top-24"><p className="eyebrow text-teal">Contact information</p><h2 className="font-display text-3xl font-bold text-white leading-tight">Let's discuss your next digital project.</h2><p className="mt-4 leading-7 text-slate-300">Whether you need a website, SEO, branding, digital marketing, or AI automation, our team is ready to help you grow faster and smarter.</p> <div className="mt-6 rounded-xl bg-white/5 p-4 border border-white/10">
   <p className="text-sm text-slate-300">
     ✓ Trusted by growing businesses
   </p>
@@ -66,13 +76,4 @@ export default function Contact() { return <> <div className="pb-8"> <PageHero l
   <strong>Location:</strong><br />
   India · Working Globally
 </li></ul></aside> 
-<div className="mt-8 flex justify-center">
-  <a
-    href="https://wa.me/918630471168?text=Hi%20Vyana%20Digital%2C%20I%20would%20like%20a%20free%20consultation"
-    target="_blank"
-    rel="noopener noreferrer"
-    className="w-full sm:w-auto text-center rounded-xl bg-green-500 px-5 py-3 font-semibold text-white transition hover:bg-green-600"
-  >
-    Get Free Consultation on WhatsApp
-  </a>
-</div> </div></section><section className="section"><div className="container-page grid gap-10 lg:grid-cols-2"><SectionHeading eyebrow="FAQ" title="A few helpful answers before we talk." copy="Still wondering about something? Include it in your message—we&apos;re happy to help."/><FAQ/></div></section></>; }
+ </div></section><section className="section"><div className="container-page grid gap-10 lg:grid-cols-2"><SectionHeading eyebrow="FAQ" title="A few helpful answers before we talk." copy="Still wondering about something? Include it in your message—we&apos;re happy to help."/><FAQ/></div></section></>; }
