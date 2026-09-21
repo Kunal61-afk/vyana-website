@@ -26,7 +26,7 @@ export const services = [
   "CRM Integration"
 ] }
 ];
-export const values = [{ title: "Innovation", icon: Lightbulb, text: "We stay curious, practical, and ahead of what moves business forward." }, { title: "Transparency", icon: ShieldCheck, text: "Clear thinking, honest advice, and no mysterious black boxes." }, { title: "Excellence", icon: Sparkles, text: "Craft and care in the details that shape how your brand is experienced." }, { title: "Growth", icon: Rocket, text: "We measure our work by the momentum it creates for your business." }];
+export const values = [{ title: "Results First", icon: Lightbulb, text: "We stay curious, practical, and ahead of what moves business forward." }, { title: "Transparency", icon: ShieldCheck, text: "Clear thinking, honest advice, and no mysterious black boxes." }, { title: "Continuous Improvement", icon: Sparkles, text: "Craft and care in the details that shape how your brand is experienced." }, { title: "Long-Term Growth", icon: Rocket, text: "We measure our work by the momentum it creates for your business." }];
 export const reasons = [
   {
     icon: Target,
