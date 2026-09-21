@@ -8,11 +8,11 @@ const projects = [
     "from-blue-500 to-indigo-800"
   ],
   [
-  "XXXXXXXXXXXX",
-  "YYYYYYYYYYYY",
+  "Local SEO Growth",
+  "Digital Marketing",
   "Helping businesses improve local visibility, attract nearby customers, and increase organic traffic.",
-  "from-teal-400 to-emerald-800"
-  ],
+  "from-red-500 to-yellow-500"
+],
   [
     "Google Business Optimisation",
     "SEO Strategy",
@@ -38,4 +38,60 @@ const projects = [
     "from-amber-300 to-orange-600"
   ]
 ];
-export default function Portfolio() { return <><PageHero label="Selected work" title="Digital experiences with a job to do." copy="A sample of the thoughtful brands, systems, and growth stories we&apos;re proud to help shape."/><section className="section bg-white"><div className="container-page"><SectionHeading eyebrow="Our portfolio" title="Made with intent, not just aesthetics."/><div className="mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3">{projects.map(([name,type,copy,gradient]) => <article className="group overflow-hidden rounded-2xl border border-slate-200 bg-white transition hover:-translate-y-1 hover:shadow-soft" key={name}><div className={`flex aspect-[1.25] items-end bg-gradient-to-br p-6 ${gradient}`}><div className="w-full rounded-xl bg-white/15 p-4 backdrop-blur-sm"><p className="text-xs font-semibold uppercase tracking-wider text-white/70">{type}</p><p className="mt-1 font-display text-xl font-semibold text-white">{name}</p></div></div><div className="p-6"><p className="leading-7 text-slate-600">{copy}</p><Link href="/contact" className="mt-5 inline-flex items-center gap-2 font-semibold text-brand">Discuss Similar Project <ArrowUpRight size={16}/></Link></div></article>)}</div></div></section></>; }
+export default function Portfolio() {
+  return (
+    <>
+    <PageHero
+        label="Selected work"
+        title="Digital experiences with a job to do."
+        copy="A sample of the thoughtful brands, systems, and growth stories we're proud to help shape."
+      />
+
+      <section className="section bg-white">
+        <div className="container-page">
+          <SectionHeading
+            eyebrow="Our portfolio"
+            title="Made with intent, not just aesthetics."
+          />
+
+          <div className="mt-12 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {projects.map(([name, type, copy, gradient], index) => (
+              <article
+                key={index}
+                className="group overflow-hidden rounded-2xl border border-slate-200 bg-white transition hover:-translate-y-1 hover:shadow-soft"
+              >
+                <div
+                   className={`flex aspect-[1.25] items-end bg-gradient-to-br p-6 ${gradient}`}
+                >
+                  <div className="w-full rounded-xl bg-white/15 p-4 backdrop-blur-sm">
+                    <p className="text-xs font-semibold uppercase tracking-wider text-white/70">
+                      {type}
+                    </p>
+
+                    <p className="mt-1 font-display text-xl font-semibold text-white">
+                      {name}
+                    </p>
+                  </div>
+                </div>
+
+                <div className="p-6">
+                  <p className="leading-7 text-slate-600">
+                    {copy}
+                  </p>
+
+                  <Link
+                    href="/contact"
+                    className="mt-5 inline-flex items-center gap-2 font-semibold text-brand"
+                  >
+                    Discuss Similar Project
+                    <ArrowUpRight size={16} />
+                  </Link>
+                </div>
+              </article>
+))}
+</div>
+</div>
+</section>
+</>
+);
+}
