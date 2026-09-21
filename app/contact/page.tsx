@@ -40,10 +40,10 @@ export default function Contact() { return <> <div className="pb-8"> <PageHero l
   <li>
     <strong>Email:</strong><br />
   <a
-    href="mailto:info@beastricky.com"
+    href="mailto:Contactbhardwajshrey@gmail.com"
     className="text-white hover:text-blue-300 transition"
   >
-    info@beastricky.com
+    Contactbhardwajshrey@gmail.com
   </a>
 </li>
 
